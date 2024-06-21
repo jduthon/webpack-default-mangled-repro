@@ -1,0 +1,18 @@
+{
+  "name": "webpack-default-mangled-repro",
+  "version": "1.0.0",
+  "description": "A small repo to reproduce a webpack problem",
+  "main": "babel.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
